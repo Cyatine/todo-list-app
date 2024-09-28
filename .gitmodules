@@ -1,0 +1,3 @@
+[submodule "tofo-list-app"]
+	path = tofo-list-app
+	url = https://github.com/Cyatine/todo-list-app.git
