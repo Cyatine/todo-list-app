@@ -1,0 +1,19 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "A Basic Todo List App Written with NodeJs and Express",
+  "main": "server/index.js",
+  "type": "module", 
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "express": "^x.x.x" 
+  },
+  "devDependencies": {
+    "nodemon": "^x.x.x" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
