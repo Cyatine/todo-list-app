@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex; /* Use flexbox for layout */
+    height: 100vh; /* Full height of the viewport */
+}
+
+nav {
+    background-color: #1e62c9; /* Green background */
+    padding: 10px;
+    width: 200px; /* Fixed width for the nav */
+    height: 100vh; /* Full height of the viewport */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 15px; /* Space between items */
+}
+
+nav ul li a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.container {
+    flex: 1; /* Take the remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    padding: 20px;
+    background: white; /* White background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Maximum width */
+    height: 80vh; /* Set a height for the container */
+    margin: auto; /* Center the container in the remaining space */
+}
+
+h1 {
+    color: #333; /* Dark text color */
+    font-size: 2.5em; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    padding: 10px; /* Increase padding for items */
+    border-bottom: 1px solid #ddd; /* Divider line */
+}
+
+li:last-child {
+    border-bottom: none; /* No border for the last item */
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #000000; /* Green background */
+    color: white; /* White text */  
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.2em; /* Larger font size for buttons */
+}
+
+.button:hover {
+    background-color: #1f45c4; /* Darker green on hover */
+}
