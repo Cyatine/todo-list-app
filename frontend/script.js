@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('edit-todo-form');
 
     // Sample static items
-    const todos = ['Study for M3', 'Walk the dog', 'Complete homework'];
+    const todos = ['Study for M3 Exam', 'Walk the dog', 'Complete homework'];
 
     // Populate the todo items
     function loadTodos() {
