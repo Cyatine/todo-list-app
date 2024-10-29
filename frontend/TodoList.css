@@ -3,56 +3,56 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    display: flex; /* Use flexbox for layout */
-    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    height: 100vh;
 }
 
 nav {
-    background-color: #1e62c9; /* Green background */
+    background-color: #1e62c9;
     padding: 10px;
-    width: 200px; /* Fixed width for the nav */
-    height: 100vh; /* Full height of the viewport */
+    width: 200px;
+    height: 100vh;
 }
 
 nav ul {
-    list-style-type: none; /* Remove bullets */
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 nav ul li {
-    margin-bottom: 15px; /* Space between items */
+    margin-bottom: 15px;
 }
 
 nav ul li a {
-    color: white; /* White text color */
-    text-decoration: none; /* Remove underline */
+    color: white;
+    text-decoration: none;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
 .container {
-    flex: 1; /* Take the remaining space */
+    flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
+    align-items: center;
+    justify-content: center;
     padding: 20px;
-    background: white; /* White background */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    max-width: 600px; /* Maximum width */
-    height: 80vh; /* Set a height for the container */
-    margin: auto; /* Center the container in the remaining space */
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    height: 80vh;
+    margin: auto;
 }
 
 h1 {
-    color: #333; /* Dark text color */
-    font-size: 2.5em; /* Larger font size for the heading */
-    margin-bottom: 20px; /* Space below the heading */
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
 ul {
@@ -60,25 +60,25 @@ ul {
 }
 
 li {
-    padding: 10px; /* Increase padding for items */
-    border-bottom: 1px solid #ddd; /* Divider line */
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
 li:last-child {
-    border-bottom: none; /* No border for the last item */
+    border-bottom: none;
 }
 
 .button {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 15px;
-    background-color: #000000; /* Green background */
-    color: white; /* White text */  
-    text-decoration: none; /* No underline */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 1.2em; /* Larger font size for buttons */
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
 }
 
 .button:hover {
-    background-color: #1f45c4; /* Darker green on hover */
+    background-color: #1f45c4;
 }
